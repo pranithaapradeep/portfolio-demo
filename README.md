@@ -1,1 +1,180 @@
-# portfolio-demo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pranithaa Pradeep | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+
+    header {
+      background: linear-gradient(to right, #000000, #0d1b2a);
+      padding: 60px 0;
+      color: #fff;
+    }
+
+    .header-content {
+      text-align: center;
+    }
+
+    .header-content h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    .header-content h3 {
+      color: #a0c4ff;
+      font-weight: normal;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .header-content p {
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #38bdf8;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #38bdf8;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .card {
+      background-color: #111827;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f172a;
+      color: #888;
+    }
+
+    /* Gallery Section */
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .gallery-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-container img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container header-content">
+      <h1>Pranithaa Pradeep</h1>
+      <h3>Sri Krishna College of Engineering and Technology</h3>
+      <p><strong>Email:</strong> <a href="mailto:pranithaa910@gmail.com">pranithaa910@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pranithaa-pradeep-38ba2b25a" target="_blank">linkedin.com/in/pranithaa-pradeep</a></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="about">
+      <h2>About Me</h2>
+      <div class="card">
+        <p>
+          I'm a Computer Science and Business Systems student with a strong passion for technology, evolving innovations, and the dynamic world of stocks and marketing. Known for being a fast learner and highly adaptable, I bring a positive attitude and a constant smile wherever I go. I strive to create an optimistic and collaborative environment, while continuously learning and growing in both technical and business domains.
+        </p>
+      </div>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <div class="card">
+        <p><strong>Vignan Global Gen School, Hyderabad</strong><br />SSC Percentage: <strong>90.2%</strong></p>
+      </div>
+      <div class="card">
+        <p><strong>National Model Senior Secondary School, Coimbatore</strong><br />HSC Percentage: <strong>75.2%</strong></p>
+      </div>
+      <div class="card">
+        <p><strong>Sri Krishna College of Engineering and Technology, Coimbatore</strong><br />Overall SGPA till II semester: <strong>8.45</strong></p>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="card">
+        <ul>
+          <li>C and C++ Programming</li>
+          <li>SQL</li>
+          <li>MATLAB</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="interests">
+      <h2>Interests</h2>
+      <div class="card">
+        <ul>
+          <li>Swimming</li>
+          <li>Reading Nonfiction</li>
+          <li>Driving</li>
+          <li>Chess</li>
+          <li>Travelling</li>
+        </ul>
+      </div>
+    </section>
+
+    
+
+  <footer>
+    <p>&copy; 2025 Pranithaa Pradeep. All rights reserved.</p>
+    <p><a href="mailto:pranithaa910@gmail.com">pranithaa910@gmail.com</a> | 
+    <a href="https://www.linkedin.com/in/pranithaa-pradeep-38ba2b25a" target="_blank">LinkedIn</a></p>
+  </footer>
+
+</body>
+</html>
